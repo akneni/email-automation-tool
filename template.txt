@@ -1,0 +1,30 @@
+Please transfer [[Total]] to @C-_1191-_ via Venmo before [[MONTH]] 14th, [[YEAR]] ([[MONTH-NUM]]/14/[[YEAR]]).
+
+--
+
+Context:
+Paid 2 Months in Arrears ([[MONTH-2]] '[[YEAR-2]]):
+Gas and Electric (For the period [[MONTH-1-NUM]]/6/[[YEAR-1]] - [[MONTH-NUM]]/6/[[YEAR]])(I pay to PG&E after service provided)
++ [[Gas and Electric LTG]] ([[LTG Name]]'s share of total). [[Gas and Electric Total]] total
+
+Paid in Previous Month: Apartment reimbursables (Cole bought, [[LTG Name]] owes Cole)([[MONTH-1]] '[[YEAR-1]]):
+Apartment cleaning: Recent Maria Prado services on _/_/_ (product and price agreed upon before purchase)
++ $__
+[item 1] from [place 1] on _/_/_5
++ $__ = $_ / _
+Paid in Previous Month: Apartment reimbursables ([[LTG Name]] bought, Cole owes [[LTG Name]])([[MONTH-1]] '[[YEAR-1]]):
+Pre-paid rent ([[LTG Name]] pre-paid; [[LTG Name]] sent via Venmo on [[Prepaid Rent Date]]):
+- [[Rent Prepaid]]
+[item 1] from [place 1] on _/_/_5
++ $__ = $_ / _
+
+Paid In Advance (Apr '25): [[New Field]]
+Apartment Rent (For the period [[MONTH START]] - [[MONTH END]])(I pay the management company in advance of service provided)
++ [[Rent LTG]] due ([[LTG Name]]'s share of total). [[TOTAL RENT]] new monthly total effective 11/1/24.
+Internet (For the period [[MONTH-1-NUM]]/19/25 - [[MONTH-NUM]]/18/25)(I pay Sonic in advance of service provided)
++ [[Internet LTG]] due ([[LTG Name]]'s share of total). [[Internet Total]] total.
+
+Total Owed: [[Total]]
+
+
+Please transfer [[Total]] to @C-_1191-_ via Venmo before Apr 14th, 2025 (4/14/25).
