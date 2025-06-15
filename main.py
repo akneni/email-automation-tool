@@ -68,7 +68,7 @@ def main():
     replacements['YEAR-1'] =  year - 1 if month <= 1 else year
     replacements['YEAR-2'] =  year - 1 if month <= 2 else year
 
-    wb = openpyxl.load_workbook("input.xlsx", data_only=True)      
+    wb = openpyxl.load_workbook("input.xlsx", data_only=True)
     ws = wb.active
 
     for i in range(1, 100):
@@ -82,9 +82,16 @@ def main():
         if isinstance(value, float):
             value = round(value, 2)
             value = f"${value}"
-        
-        if value is not None:
+        elif isinstance(value, str) and value.strip().endswith('00:00:00'):
+            value = value.replace('00:00:00', '').strip()
+            value_lst = value.split('-')
+            value = '/'.join([value_lst[1], value_lst[2], value_lst[0]])
+        elif isinstance(value, datetime):
+            value = value.strftime("%m/%d/%Y")
+        else:
+            print(value, type(value))
 
+        if value is not None:
             template = template.replace(f"[[{title}]]", str(value))
 
     for k, v in replacements.items():
