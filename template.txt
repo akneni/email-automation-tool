@@ -1,4 +1,4 @@
-Please transfer [[Total]] to @C-_1191-_ via Venmo before [[MONTH]] 14th, [[YEAR]] ([[MONTH-NUM]]/14/[[YEAR]]).
+Please transfer [[Total]] to @C-_1191-_ via Venmo before [[Venmo Deadline Date]].
 
 --
 
@@ -27,4 +27,4 @@ Internet (For the period [[MONTH-1-NUM]]/19/25 - [[MONTH-NUM]]/18/25)(I pay Soni
 Total Owed: [[Total]]
 
 
-Please transfer [[Total]] to @C-_1191-_ via Venmo before Apr 14th, 2025 (4/14/25).
+Please transfer [[Total]] to @C-_1191-_ via Venmo before [[Venmo Deadline Date]].
