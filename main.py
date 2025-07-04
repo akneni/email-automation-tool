@@ -36,7 +36,7 @@ replacements = {
     'YEAR-2': None
 }
 
-def main():
+def generate_xlsx(ltg: int):
     month = datetime.now().month
     year = datetime.now().year
 
@@ -49,8 +49,9 @@ def main():
     month_2 = (10 + month) if month <= 2 else month - 2
 
 
-    with open('template.txt', 'r') as f:
+    with open(f'template.txt', 'r') as f:
         template = f.read()
+    template = template.replace('LTG *', f'LTG {ltg}')
 
     # Populate automated fields
     replacements['MONTH START'] = f"{month}/1/{year}"    
@@ -68,7 +69,7 @@ def main():
     replacements['YEAR-1'] =  year - 1 if month <= 1 else year
     replacements['YEAR-2'] =  year - 1 if month <= 2 else year
 
-    wb = openpyxl.load_workbook("input.xlsx", data_only=True)
+    wb = openpyxl.load_workbook(f"input.xlsx", data_only=True)
     ws = wb.active
 
     for i in range(1, 100):
@@ -99,8 +100,12 @@ def main():
     
 
 
-    with open('output.txt', 'w') as f:
+    with open(f'output-ltg-{ltg}.txt', 'w') as f:
         f.write(template)
+
+def main():
+    for i in range(1, 3):
+        generate_xlsx(i)
 
 if __name__ == '__main__':
     main()
